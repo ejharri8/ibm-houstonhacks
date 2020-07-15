@@ -4,7 +4,13 @@
       "intent": "collectCity",
       "examples": [
         {
-          "text": "New Orleans"
+          "text": "I live outside of"
+        },
+        {
+          "text": "I live around"
+        },
+        {
+          "text": "I live near"
         },
         {
           "text": "I am from Chicago"
@@ -14,6 +20,9 @@
         },
         {
           "text": "Chicago"
+        },
+        {
+          "text": "New Orleans"
         }
       ],
       "description": ""
@@ -22,7 +31,190 @@
       "intent": "CollectName",
       "examples": [
         {
+          "text": "Garry",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hanna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jorge",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Joe, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sophia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "robert",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mitchell",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lisa",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kim",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Karren",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
           "text": "tori"
+        },
+        {
+          "text": "Mitch, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Lilith from Nashville"
+        },
+        {
+          "text": "Alex",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Amelia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Angelina",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Drew",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
         },
         {
           "text": "I'm Jad from Kentucky",
@@ -121,189 +313,6 @@
           ]
         },
         {
-          "text": "Joe, Chicago",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                3
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Mitch, Chicago",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I'm Lilith from Nashville"
-        },
-        {
-          "text": "Alex",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                4
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Amelia",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Angelina",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                8
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Drew",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                4
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Garry",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Hanna",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Jorge",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Karren",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Kim",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                3
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Lisa",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                4
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Mitchell",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                8
-              ]
-            }
-          ]
-        },
-        {
-          "text": "robert",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Sophia",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
           "text": "Hey I'm Elizabeth",
           "mentions": [
             {
@@ -365,6 +374,15 @@
       "intent": "crimeLocations",
       "examples": [
         {
+          "text": "I'd love to hear about crime locations"
+        },
+        {
+          "text": "Tell me about locations"
+        },
+        {
+          "text": "Tell me about crime locations"
+        },
+        {
           "text": "locations"
         },
         {
@@ -374,19 +392,10 @@
           "text": "Where is crime"
         },
         {
-          "text": "Where is crime in my city"
-        },
-        {
           "text": "Can I hear about the crime locations"
         },
         {
-          "text": "I'd love to hear about crime locations"
-        },
-        {
-          "text": "Tell me about locations"
-        },
-        {
-          "text": "Tell me about crime locations"
+          "text": "Where is crime in my city"
         }
       ],
       "description": ""
@@ -396,6 +405,21 @@
       "examples": [
         {
           "text": "I'd like to hear about crime trends"
+        },
+        {
+          "text": "Can you tell me about crime trends"
+        },
+        {
+          "text": "Crime trends please"
+        },
+        {
+          "text": "Crime Trends"
+        },
+        {
+          "text": "I want to know about crime trends"
+        },
+        {
+          "text": "lmk crime trends"
         },
         {
           "text": "more about crime trends"
@@ -408,24 +432,150 @@
         },
         {
           "text": "Can you tell me the trends"
-        },
-        {
-          "text": "I want to know about crime trends"
-        },
-        {
-          "text": "Crime Trends"
-        },
-        {
-          "text": "Crime trends please"
-        },
-        {
-          "text": "Can you tell me about crime trends"
-        },
-        {
-          "text": "lmk crime trends"
         }
       ],
       "description": ""
+    },
+    {
+      "intent": "collectBadgeNumber",
+      "examples": [
+        {
+          "text": "3821"
+        },
+        {
+          "text": "Its 6832"
+        },
+        {
+          "text": "9531"
+        },
+        {
+          "text": "2845"
+        },
+        {
+          "text": "214"
+        },
+        {
+          "text": "3885"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Shut up"
+        }
+      ],
+      "description": "End the conversation."
     },
     {
       "intent": "badgeNumbers",
@@ -434,19 +584,22 @@
           "text": "I have a badge number"
         },
         {
-          "text": "data for badge number 3949"
-        },
-        {
-          "text": "badge number data"
-        },
-        {
-          "text": "I'd like to hear about data by badge number"
+          "text": "Badge number"
         },
         {
           "text": "Can I look up data by Badge Number"
         },
         {
-          "text": "Badge number"
+          "text": "I'd like to hear about data by badge number"
+        },
+        {
+          "text": "badge number data"
+        },
+        {
+          "text": "data for badge number 3949"
+        },
+        {
+          "text": "5432"
         }
       ],
       "description": ""
@@ -840,7 +993,25 @@
     {
       "type": "standard",
       "title": "Crime Locations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Right, more about crime locations."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
       "parent": "node_9_1594828909888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
       "conditions": "#crimeLocations",
       "dialog_node": "node_5_1594828944663",
       "previous_sibling": "node_10_1594828933196"
@@ -974,10 +1145,13 @@
           {
             "values": [
               {
-                "text": "Thank you for providing that, $name. I have the capability to provide crime trends, crime locations, or can look up data by badge number for $city. What would you like to do?"
+                "text": "Thanks, $name."
               },
               {
-                "text": "Hi $name, I have the capability to provide crime trends, crime locations, or can look up data by badge number in $city. What would you like to do?"
+                "text": "Thanks so much, $name. "
+              },
+              {
+                "text": "Got it. $name from $city."
               }
             ],
             "response_type": "text",
@@ -986,9 +1160,37 @@
         ]
       },
       "parent": "node_8_1594828190334",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
       "conditions": "#collectCity && @city",
       "dialog_node": "node_1_1594828378820",
       "previous_sibling": "node_3_1594828201046"
+    },
+    {
+      "type": "standard",
+      "title": "Present with Options",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I have the capability to provide crime trends, crime locations, or can look up data by badge number in $city. What would you like to do?"
+              },
+              {
+                "text": "I can give you information on crime trends, look up data by badge number, or give you crime location data. How can I assist you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594828190334",
+      "dialog_node": "node_10_1594832563621",
+      "previous_sibling": "node_4_1594828508566"
     },
     {
       "type": "frame",
@@ -998,7 +1200,7 @@
           {
             "values": [
               {
-                "text": "Sorry, we don't currently have data for $dataless_city. Feel free to input another city!"
+                "text": "Sorry $name, we don't currently have data for your city. Feel free to input another city!"
               }
             ],
             "response_type": "text",
@@ -1012,7 +1214,7 @@
         "selector": "user_input",
         "dialog_node": "node_1_1594828378820"
       },
-      "conditions": "#collectCity && @dataless-city",
+      "conditions": "#collectCity",
       "dialog_node": "node_4_1594828508566",
       "previous_sibling": "node_1_1594828378820"
     },
@@ -1073,7 +1275,7 @@
           {
             "values": [
               {
-                "text": "For #$badgeNumber we have the following data:"
+                "text": "For $badgeNumber we have the following data: [ ]. Feel free to ask another question."
               }
             ],
             "response_type": "text",
@@ -1082,7 +1284,12 @@
         ]
       },
       "parent": "node_10_1594828933196",
-      "conditions": "@badgeNumber",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
+      "conditions": "@badgeNumber || #collectBadgeNumber",
       "dialog_node": "node_5_1594829447740"
     },
     {
@@ -1090,6 +1297,33 @@
       "parent": "node_1_1594828378820",
       "variable": "$city",
       "dialog_node": "slot_8_1594828404529"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbyes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright, hopefully I've answered all of your questions. Have a great rest of your day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1594832712274",
+      "previous_sibling": "node_9_1594828909888"
+    },
+    {
+      "type": "folder",
+      "title": "User Information",
+      "dialog_node": "node_8_1594828190334",
+      "previous_sibling": "Welcome"
     },
     {
       "type": "standard",
@@ -1118,14 +1352,8 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Anything else",
-      "previous_sibling": "node_9_1594828909888",
+      "previous_sibling": "node_8_1594832712274",
       "disambiguation_opt_out": true
-    },
-    {
-      "type": "folder",
-      "title": "User Information",
-      "dialog_node": "node_8_1594828190334",
-      "previous_sibling": "Welcome"
     },
     {
       "type": "folder",
