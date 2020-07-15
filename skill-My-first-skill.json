@@ -4,7 +4,10 @@
       "intent": "collectCity",
       "examples": [
         {
-          "text": "I live outside of"
+          "text": "Chicago"
+        },
+        {
+          "text": "I am from Chicago"
         },
         {
           "text": "I live around"
@@ -13,19 +16,16 @@
           "text": "I live near"
         },
         {
-          "text": "I am from Chicago"
+          "text": "I live outside of"
         },
         {
           "text": "Nashville"
         },
         {
-          "text": "Chicago"
-        },
-        {
           "text": "New Orleans"
         }
       ],
-      "description": ""
+      "description": "Collect & Store the users city"
     },
     {
       "intent": "CollectName",
@@ -43,6 +43,175 @@
           ]
         },
         {
+          "text": "Drew",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dakota, NJ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm John Doe from Texas",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                8
+              ]
+            },
+            {
+              "entity": "name",
+              "location": [
+                9,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tori"
+        },
+        {
+          "text": "Alex",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexandria from Gretna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Amelia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Angelina",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ashley AZ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Lilith from Nashville"
+        },
+        {
+          "text": "I'm Jad from Kentucky",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Alaska, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I go by Liz",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi my name is Angelica from New York",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey I'm Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
           "text": "Hanna",
           "mentions": [
             {
@@ -55,54 +224,6 @@
           ]
         },
         {
-          "text": "Jorge",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Joe, Chicago",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                3
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Sophia",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "robert",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
           "text": "Mitchell",
           "mentions": [
             {
@@ -110,6 +231,18 @@
               "location": [
                 0,
                 8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mitch, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
               ]
             }
           ]
@@ -151,10 +284,7 @@
           ]
         },
         {
-          "text": "tori"
-        },
-        {
-          "text": "Mitch, Chicago",
+          "text": "Jorge",
           "mentions": [
             {
               "entity": "name",
@@ -166,22 +296,31 @@
           ]
         },
         {
-          "text": "I'm Lilith from Nashville"
-        },
-        {
-          "text": "Alex",
+          "text": "Joe, Chicago",
           "mentions": [
             {
               "entity": "name",
               "location": [
                 0,
-                4
+                3
               ]
             }
           ]
         },
         {
-          "text": "Amelia",
+          "text": "james, tn",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sophia",
           "mentions": [
             {
               "entity": "name",
@@ -193,43 +332,7 @@
           ]
         },
         {
-          "text": "Angelina",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                8
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Drew",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                4
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I'm Jad from Kentucky",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                4,
-                7
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Ashley AZ",
+          "text": "robert",
           "mentions": [
             {
               "entity": "name",
@@ -253,109 +356,6 @@
           ]
         },
         {
-          "text": "I'm Alaska, CT",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                4,
-                10
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Dakota, NJ",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "james, tn",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Alexandria from Gretna",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                10
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Hi my name is Angelica from New York",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                14,
-                22
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Hey I'm Elizabeth",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                8,
-                17
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I go by Liz",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                8,
-                11
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I'm John Doe from Texas",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                4,
-                8
-              ]
-            },
-            {
-              "entity": "name",
-              "location": [
-                9,
-                12
-              ]
-            }
-          ]
-        },
-        {
           "text": "My friends call me Elizabeth",
           "mentions": [
             {
@@ -368,97 +368,166 @@
           ]
         }
       ],
-      "description": ""
+      "description": "Collect & Store user's name ; Annotate all names!"
     },
     {
       "intent": "crimeLocations",
       "examples": [
         {
-          "text": "I'd love to hear about crime locations"
-        },
-        {
-          "text": "Tell me about locations"
-        },
-        {
-          "text": "Tell me about crime locations"
-        },
-        {
-          "text": "locations"
+          "text": "Can I hear about the crime locations"
         },
         {
           "text": "crime locations"
         },
         {
-          "text": "Where is crime"
+          "text": "I'd love to hear about crime locations"
         },
         {
-          "text": "Can I hear about the crime locations"
+          "text": "locations"
+        },
+        {
+          "text": "Tell me about crime locations"
+        },
+        {
+          "text": "Tell me about locations"
+        },
+        {
+          "text": "Where is crime"
         },
         {
           "text": "Where is crime in my city"
         }
       ],
-      "description": ""
+      "description": "If the user is requesting information about crime locations"
     },
     {
       "intent": "crimeTrends",
       "examples": [
         {
-          "text": "I'd like to hear about crime trends"
-        },
-        {
-          "text": "Can you tell me about crime trends"
-        },
-        {
-          "text": "Crime trends please"
-        },
-        {
-          "text": "Crime Trends"
-        },
-        {
-          "text": "I want to know about crime trends"
-        },
-        {
-          "text": "lmk crime trends"
+          "text": "Tell me about the trends"
         },
         {
           "text": "more about crime trends"
         },
         {
+          "text": "lmk crime trends"
+        },
+        {
+          "text": "I'd like to hear about crime trends"
+        },
+        {
+          "text": "I want to know about crime trends"
+        },
+        {
+          "text": "Crime trends please"
+        },
+        {
           "text": "crime trends in my city"
         },
         {
-          "text": "Tell me about the trends"
+          "text": "Crime Trends"
         },
         {
           "text": "Can you tell me the trends"
+        },
+        {
+          "text": "Can you tell me about crime trends"
         }
       ],
-      "description": ""
+      "description": "If the user is requesting information about crime trends"
     },
     {
       "intent": "collectBadgeNumber",
       "examples": [
         {
-          "text": "3821"
+          "text": "Its 6832",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
         },
         {
-          "text": "Its 6832"
+          "text": "9321"
         },
         {
-          "text": "9531"
+          "text": "214",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
         },
         {
-          "text": "2845"
+          "text": "2845",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
         },
         {
-          "text": "214"
+          "text": "3821",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
         },
         {
-          "text": "3885"
+          "text": "3885",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "9531",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sure, it's 593",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
         }
       ],
-      "description": ""
+      "description": "[not fully functional] Collecting the Badge Number in order to reference the data"
     },
     {
       "intent": "General_Ending",
@@ -581,28 +650,46 @@
       "intent": "badgeNumbers",
       "examples": [
         {
-          "text": "I have a badge number"
+          "text": "data for badge number 3949",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                22,
+                26
+              ]
+            }
+          ]
         },
         {
-          "text": "Badge number"
-        },
-        {
-          "text": "Can I look up data by Badge Number"
+          "text": "5432",
+          "mentions": [
+            {
+              "entity": "badgeNumber",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
         },
         {
           "text": "I'd like to hear about data by badge number"
         },
         {
+          "text": "I have a badge number"
+        },
+        {
+          "text": "Can I look up data by Badge Number"
+        },
+        {
           "text": "badge number data"
         },
         {
-          "text": "data for badge number 3949"
-        },
-        {
-          "text": "5432"
+          "text": "Badge number"
         }
       ],
-      "description": ""
+      "description": "If the user is requesting information about badge numbers"
     }
   ],
   "entities": [
@@ -676,12 +763,57 @@
       "entity": "badgeNumber",
       "values": [
         {
+          "type": "synonyms",
+          "value": "593",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6832",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3885",
+          "synonyms": []
+        },
+        {
           "type": "patterns",
-          "value": "3943",
+          "value": "Badge Number",
           "patterns": [
             "(\\d{4})",
             "(\\d{3})"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "5432",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3949",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "214",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9531",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2845",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3821",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -689,51 +821,6 @@
     {
       "entity": "name",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Reanna",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Alaska",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Dakota",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Alexandria",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Angelica",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "JOe",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Mitch",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Amelia",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Alex",
-          "synonyms": []
-        },
         {
           "type": "synonyms",
           "value": "Angelina",
@@ -766,7 +853,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Karren",
+          "value": "Elizabeth",
           "synonyms": []
         },
         {
@@ -776,7 +863,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Elizabeth",
+          "value": "Lisa",
           "synonyms": []
         },
         {
@@ -786,7 +873,7 @@
         },
         {
           "type": "synonyms",
-          "value": "Lisa",
+          "value": "Karren",
           "synonyms": []
         },
         {
@@ -848,6 +935,51 @@
           "type": "synonyms",
           "value": "Jad",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reanna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alaska",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dakota",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexandria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Angelica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "JOe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mitch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Amelia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alex",
+          "synonyms": []
         }
       ],
       "fuzzy_match": true
@@ -855,36 +987,6 @@
     {
       "entity": "city",
       "values": [
-        {
-          "type": "synonyms",
-          "value": "Chicago",
-          "synonyms": [
-            "Naperville",
-            "Wilmette",
-            "Evanston",
-            "Buffalo Grove",
-            "Hinsdale",
-            "Glenview",
-            "Winnetka",
-            "Oak Park",
-            "Elmhurst",
-            "Wheaton",
-            "Northbrook",
-            "La Grange",
-            "Schaumburg",
-            "Des Plaines",
-            "Western Springs",
-            "Glencoe",
-            "Lisle",
-            "Arlington Heights",
-            "Highland Park",
-            "Skokie",
-            "Aurora",
-            "Kenilworth",
-            "Palatine",
-            "Joliet"
-          ]
-        },
         {
           "type": "synonyms",
           "value": "New Orleans",
@@ -913,6 +1015,36 @@
             "Hahnville",
             "Timberlane",
             "Marrero"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicago",
+          "synonyms": [
+            "Naperville",
+            "Wilmette",
+            "Evanston",
+            "Buffalo Grove",
+            "Hinsdale",
+            "Glenview",
+            "Winnetka",
+            "Oak Park",
+            "Elmhurst",
+            "Wheaton",
+            "Northbrook",
+            "La Grange",
+            "Schaumburg",
+            "Des Plaines",
+            "Western Springs",
+            "Glencoe",
+            "Lisle",
+            "Arlington Heights",
+            "Highland Park",
+            "Skokie",
+            "Aurora",
+            "Kenilworth",
+            "Palatine",
+            "Joliet"
           ]
         },
         {
@@ -959,6 +1091,23 @@
   },
   "dialog_nodes": [
     {
+      "type": "standard",
+      "title": "Provide Crime Locations",
+      "parent": "node_5_1594828944663",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
+      "conditions": "$city",
+      "dialog_node": "node_5_1594841756863"
+    },
+    {
       "type": "event_handler",
       "output": {},
       "parent": "slot_1_1594828537789",
@@ -980,11 +1129,29 @@
     {
       "type": "standard",
       "title": "Crime Trends",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Of course, I can provide crime trends about $city."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
       "parent": "node_9_1594828909888",
       "metadata": {
         "_customization": {
-          "mcr": true
+          "mcr": false
         }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1594841898177"
       },
       "conditions": "#crimeTrends",
       "dialog_node": "node_6_1594828954003",
@@ -1010,7 +1177,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_10_1594832563621"
+        "dialog_node": "node_5_1594841756863"
       },
       "conditions": "#crimeLocations",
       "dialog_node": "node_5_1594828944663",
@@ -1070,8 +1237,27 @@
         ]
       },
       "parent": "node_6_1594828954003",
+      "disabled": true,
       "conditions": "",
-      "dialog_node": "response_9_1594830612384"
+      "dialog_node": "response_9_1594830612384",
+      "previous_sibling": "node_1_1594841898177"
+    },
+    {
+      "type": "standard",
+      "title": "Provide Crime Trends",
+      "parent": "node_6_1594828954003",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
+      "conditions": "$city",
+      "dialog_node": "node_1_1594841898177"
     },
     {
       "type": "event_handler",
@@ -1126,16 +1312,102 @@
       "dialog_node": "handler_4_1594828404561"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594841898177",
+      "conditions": "$city == \"Chicago\"",
+      "dialog_node": "response_4_1594841898183",
+      "previous_sibling": "response_3_1594841898183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594841898177",
+      "conditions": "$city == \"New Orleans\"",
+      "dialog_node": "response_3_1594841898183",
+      "previous_sibling": "response_2_1594841898183"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1594841898177",
+      "conditions": "$city == \"Nashville\"",
+      "dialog_node": "response_2_1594841898183"
+    },
+    {
       "type": "slot",
       "parent": "node_4_1594828508566",
       "variable": "$dataless_city",
       "dialog_node": "slot_1_1594828537789"
     },
     {
-      "type": "slot",
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For the badge number #$badgeNumber we have the following data: 144 traffic stops, 50 drug arrests, and they have worked on 4 sexual assault cases. Feel free to ask another question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
       "parent": "node_5_1594829447740",
-      "variable": "$badgeNumber",
-      "dialog_node": "slot_5_1594830789918"
+      "context": {
+        "badgeNumber": "<? @badgeNumber.literal ?>"
+      },
+      "disabled": true,
+      "conditions": "$badgeNumber:921",
+      "dialog_node": "response_8_1594839165288",
+      "previous_sibling": "node_4_1594839883087"
+    },
+    {
+      "type": "standard",
+      "title": "Provide Badge Info",
+      "parent": "node_5_1594829447740",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
+      "conditions": "$badgeNumber",
+      "dialog_node": "node_4_1594839883087"
     },
     {
       "type": "frame",
@@ -1242,40 +1514,59 @@
       "dialog_node": "node_3_1594828201046"
     },
     {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "Badge numbers are usually 3 or 4 numbers. Please try again."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_5_1594830789918",
-      "event_name": "focus",
-      "dialog_node": "handler_9_1594830789957",
-      "previous_sibling": "handler_4_1594830789957"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1594830789918",
-      "context": {
-        "badgeNumber": "@badgeNumber"
-      },
-      "conditions": "@badgeNumber",
-      "event_name": "input",
-      "dialog_node": "handler_4_1594830789957"
-    },
-    {
-      "type": "frame",
+      "type": "standard",
       "title": "Given Badge Number",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "For $badgeNumber we have the following data: [ ]. Feel free to ask another question."
+                "text": "For the badge number #$badgeNumber we have the following data: "
+              },
+              {
+                "text": "For the badge number #$badgeNumber we have the following data: 144 traffic stops, 50 drug arrests, and they have worked on 4 sexual assault cases. Feel free to ask another question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 0,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594828933196",
+      "context": {
+        "badgeNumber": "<? @badgeNumber.literal ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1594839883087"
+      },
+      "conditions": "@badgeNumber || #collectBadgeNumber",
+      "dialog_node": "node_5_1594829447740"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Click <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. I'll now return back to the main menu in case you have more questions."
               }
             ],
             "response_type": "text",
@@ -1283,20 +1574,74 @@
           }
         ]
       },
-      "parent": "node_10_1594828933196",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_10_1594832563621"
+      "parent": "node_5_1594841756863",
+      "conditions": "$city == \"Chicago\"",
+      "dialog_node": "response_6_1594841888529",
+      "previous_sibling": "response_6_1594841875942"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Click <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. Hope this helps! I'll now return back to the main menu in case you have more questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
       },
-      "conditions": "@badgeNumber || #collectBadgeNumber",
-      "dialog_node": "node_5_1594829447740"
+      "parent": "node_5_1594841756863",
+      "conditions": "$city == \"New Orleans\"",
+      "dialog_node": "response_6_1594841875942",
+      "previous_sibling": "response_2_1594841860773"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Click <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. Hopefully that was helpful. I'll now return back to the main menu in case you have more questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1594841756863",
+      "conditions": "$city == \"Nashville\"",
+      "dialog_node": "response_2_1594841860773"
     },
     {
       "type": "slot",
       "parent": "node_1_1594828378820",
       "variable": "$city",
       "dialog_node": "slot_8_1594828404529"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ACCEPTED BADGE # I'll now return back to the main menu in case you have more questions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1594839883087",
+      "conditions": "$badgeNumber == \"921\"",
+      "dialog_node": "response_2_1594839887183"
     },
     {
       "type": "standard",
@@ -1307,10 +1652,13 @@
             "values": [
               {
                 "text": "Alright, hopefully I've answered all of your questions. Have a great rest of your day!"
+              },
+              {
+                "text": "Thanks for chatting with me today. Hopefully I've answered all of your questions for today."
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
