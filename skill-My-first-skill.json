@@ -1,16 +1,328 @@
 {
   "intents": [
     {
+      "intent": "collectCity",
+      "examples": [
+        {
+          "text": "New Orleans"
+        },
+        {
+          "text": "I am from Chicago"
+        },
+        {
+          "text": "Nashville"
+        },
+        {
+          "text": "Chicago"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "CollectName",
       "examples": [
         {
-          "text": "My friends call me Elizabeth",
+          "text": "tori"
+        },
+        {
+          "text": "I'm Jad from Kentucky",
           "mentions": [
             {
               "entity": "name",
               "location": [
-                19,
-                28
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ashley AZ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reanna, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Alaska, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dakota, NJ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "james, tn",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexandria from Gretna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi my name is Angelica from New York",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Joe, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mitch, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Lilith from Nashville"
+        },
+        {
+          "text": "Alex",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Amelia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Angelina",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Drew",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Garry",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hanna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jorge",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Karren",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kim",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lisa",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mitchell",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "robert",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sophia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey I'm Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I go by Liz",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                11
               ]
             }
           ]
@@ -35,121 +347,13 @@
           ]
         },
         {
-          "text": "I go by Liz",
+          "text": "My friends call me Elizabeth",
           "mentions": [
             {
               "entity": "name",
               "location": [
-                8,
-                11
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Hey I'm Elizabeth",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                8,
-                17
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Hi my name is Angelica from New York",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                14,
-                22
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Alexandria from Gretna",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                10
-              ]
-            }
-          ]
-        },
-        {
-          "text": "james, tn",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                5
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Dakota, NJ",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I'm Alaska, CT",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                4,
-                10
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Reanna, CT",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Ashley AZ",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                0,
-                6
-              ]
-            }
-          ]
-        },
-        {
-          "text": "I'm Jad from Kentucky",
-          "mentions": [
-            {
-              "entity": "name",
-              "location": [
-                4,
-                7
+                19,
+                28
               ]
             }
           ]
@@ -158,802 +362,94 @@
       "description": ""
     },
     {
-      "intent": "General_Ending",
+      "intent": "crimeLocations",
       "examples": [
         {
-          "text": "Ok goodbye"
+          "text": "locations"
         },
         {
-          "text": "It was nice chatting with you"
+          "text": "crime locations"
         },
         {
-          "text": "I'm leaving now"
+          "text": "Where is crime"
         },
         {
-          "text": "Im good thank you"
+          "text": "Where is crime in my city"
         },
         {
-          "text": "Im done"
+          "text": "Can I hear about the crime locations"
         },
         {
-          "text": "I'm done"
+          "text": "I'd love to hear about crime locations"
         },
         {
-          "text": "I want to quit"
+          "text": "Tell me about locations"
         },
         {
-          "text": "I have got to go"
-        },
-        {
-          "text": "I d like to stop doing this"
-        },
-        {
-          "text": "I am out of here"
-        },
-        {
-          "text": "I am leaving"
-        },
-        {
-          "text": "Hey bot go away"
-        },
-        {
-          "text": "Have a nice day?"
-        },
-        {
-          "text": "Goodbye"
-        },
-        {
-          "text": "Good. bye."
-        },
-        {
-          "text": "Going now"
-        },
-        {
-          "text": "Go off"
-        },
-        {
-          "text": "Go away"
-        },
-        {
-          "text": "Get lost"
-        },
-        {
-          "text": "Finished now, good bye"
-        },
-        {
-          "text": "Ending this session"
-        },
-        {
-          "text": "Stop doing this"
-        },
-        {
-          "text": "Time to go"
-        },
-        {
-          "text": "That's everything"
-        },
-        {
-          "text": "That is all"
-        },
-        {
-          "text": "Thanks very much, bye!"
-        },
-        {
-          "text": "Thanks, bye!"
-        },
-        {
-          "text": "Thank you for your time"
-        },
-        {
-          "text": "Stop talking to me"
-        },
-        {
-          "text": "Bye bye"
-        },
-        {
-          "text": "Shut up"
-        },
-        {
-          "text": "See you"
-        },
-        {
-          "text": "See you later"
-        },
-        {
-          "text": "End trial"
-        },
-        {
-          "text": "Cya later"
-        },
-        {
-          "text": "Catch you later"
-        },
-        {
-          "text": "Bye now"
+          "text": "Tell me about crime locations"
         }
       ],
-      "description": "End the conversation."
+      "description": ""
     },
     {
-      "intent": "General_Negative_Feedback",
+      "intent": "crimeTrends",
       "examples": [
         {
-          "text": "I hate this!"
+          "text": "I'd like to hear about crime trends"
         },
         {
-          "text": "I hate you"
+          "text": "more about crime trends"
         },
         {
-          "text": "It is annoying"
+          "text": "crime trends in my city"
         },
         {
-          "text": "Quit annoying me"
+          "text": "Tell me about the trends"
         },
         {
-          "text": "Robots are boring"
+          "text": "Can you tell me the trends"
         },
         {
-          "text": "Robots are stupid"
+          "text": "I want to know about crime trends"
         },
         {
-          "text": "Stupid"
+          "text": "Crime Trends"
         },
         {
-          "text": "Why are you so annoying?"
+          "text": "Crime trends please"
         },
         {
-          "text": "Why are you stupid?"
+          "text": "Can you tell me about crime trends"
         },
         {
-          "text": "You are having delusions"
-        },
-        {
-          "text": "You are on my nerves"
-        },
-        {
-          "text": "You are very frustrating"
-        },
-        {
-          "text": "You do not seem smart"
-        },
-        {
-          "text": "You're really frustrating"
-        },
-        {
-          "text": "You're really irritating"
-        },
-        {
-          "text": "You're too stupid"
-        },
-        {
-          "text": "Do not like you?"
-        },
-        {
-          "text": "Everyone hates you"
-        },
-        {
-          "text": "Hate you"
-        },
-        {
-          "text": "I do not like you"
+          "text": "lmk crime trends"
         }
       ],
-      "description": "Express unfavorable feedback."
+      "description": ""
     },
     {
-      "intent": "General_Jokes",
+      "intent": "badgeNumbers",
       "examples": [
         {
-          "text": "Do you have a joke?"
+          "text": "I have a badge number"
         },
         {
-          "text": "Do you have humor?"
+          "text": "data for badge number 3949"
         },
         {
-          "text": "Do you like fun?"
+          "text": "badge number data"
         },
         {
-          "text": "Do you like humor?"
+          "text": "I'd like to hear about data by badge number"
         },
         {
-          "text": "I am getting bored"
+          "text": "Can I look up data by Badge Number"
         },
         {
-          "text": "I want a joke"
-        },
-        {
-          "text": "I'm bored"
-        },
-        {
-          "text": "One more joke"
-        },
-        {
-          "text": "Surprise me with something hilarious"
-        },
-        {
-          "text": "Tell me a joke"
-        },
-        {
-          "text": "Tell me something funny"
-        },
-        {
-          "text": "What do you do for fun?"
-        },
-        {
-          "text": "What is your favorite joke?"
-        },
-        {
-          "text": "Another joke"
-        },
-        {
-          "text": "Are there jokes?"
-        },
-        {
-          "text": "Can you tell a joke?"
-        },
-        {
-          "text": "Can you tell me a joke?"
+          "text": "Badge number"
         }
       ],
-      "description": "Request a joke."
-    },
-    {
-      "intent": "General_Connect_to_Agent",
-      "examples": [
-        {
-          "text": "Send me to an agent"
-        },
-        {
-          "text": "A real agent, please."
-        },
-        {
-          "text": "Agent help"
-        },
-        {
-          "text": "Call agent"
-        },
-        {
-          "text": "Can I connect to an agent?"
-        },
-        {
-          "text": "Can I speak to a human please?"
-        },
-        {
-          "text": "Can I speak to a live person?"
-        },
-        {
-          "text": "Can I speak to an advisor?"
-        },
-        {
-          "text": "Can I speak with somebody?"
-        },
-        {
-          "text": "Can I talk to someone?"
-        },
-        {
-          "text": "Can you assist me to connect to an agent?"
-        },
-        {
-          "text": "Can you connect me with a real person?"
-        },
-        {
-          "text": "Connect me to a live operator please."
-        },
-        {
-          "text": "Contact person"
-        },
-        {
-          "text": "Could you please transfer me to your master?"
-        },
-        {
-          "text": "Customer service representative please."
-        },
-        {
-          "text": "Do not want a robot?"
-        },
-        {
-          "text": "Hi can you transfer me"
-        },
-        {
-          "text": "How can I skip the recorded menu and go straight to a live person?"
-        },
-        {
-          "text": "I don't want to talk to a bot."
-        },
-        {
-          "text": "I don't want to talk to you"
-        },
-        {
-          "text": "I need to speak to a representative. How would I go about doing so?"
-        },
-        {
-          "text": "I want a manager"
-        },
-        {
-          "text": "I want agent"
-        },
-        {
-          "text": "I want an agent to help me"
-        },
-        {
-          "text": "I want to talk to a person"
-        },
-        {
-          "text": "I would like to speak to a human"
-        },
-        {
-          "text": "I would like to speak to someone"
-        },
-        {
-          "text": "Is there anyone there I can actually talk to for real?"
-        },
-        {
-          "text": "Need help from human"
-        },
-        {
-          "text": "Operator please"
-        },
-        {
-          "text": "Please assist me to get to an agent"
-        },
-        {
-          "text": "Please connect me to a live agent"
-        },
-        {
-          "text": "Please let me talk to a human being."
-        },
-        {
-          "text": "Pls connect"
-        },
-        {
-          "text": "Put me through to someone"
-        },
-        {
-          "text": "Where is the closest agent?"
-        },
-        {
-          "text": "Yes, take me to a real person"
-        }
-      ],
-      "description": "Request a human agent."
-    },
-    {
-      "intent": "General_About_You",
-      "examples": [
-        {
-          "text": "What should I know about you?"
-        },
-        {
-          "text": "What languages do you speak?"
-        },
-        {
-          "text": "Tell me something about yourself"
-        },
-        {
-          "text": "Tell me about your life"
-        },
-        {
-          "text": "Let us talk about you"
-        },
-        {
-          "text": "Introduce your self"
-        },
-        {
-          "text": "I want to set up the chat bot for my shop"
-        },
-        {
-          "text": "How old are you?"
-        },
-        {
-          "text": "Why are you here?"
-        },
-        {
-          "text": "Who are you?"
-        },
-        {
-          "text": "Where were you born?"
-        },
-        {
-          "text": "Where are you from?"
-        },
-        {
-          "text": "What's your name?"
-        },
-        {
-          "text": "About you"
-        },
-        {
-          "text": "Can I use another language?"
-        },
-        {
-          "text": "Describe your self"
-        },
-        {
-          "text": "Do you have a name?"
-        },
-        {
-          "text": "Do you know who you are?"
-        },
-        {
-          "text": "How can I configure you?"
-        },
-        {
-          "text": "How do you function?"
-        }
-      ],
-      "description": "Request generic personal attributes."
-    },
-    {
-      "intent": "General_Greetings",
-      "examples": [
-        {
-          "text": "Hello"
-        },
-        {
-          "text": "Hello I am looking for some help here"
-        },
-        {
-          "text": "Hello Agent"
-        },
-        {
-          "text": "Have you been well?"
-        },
-        {
-          "text": "Greetings"
-        },
-        {
-          "text": "Good to see you"
-        },
-        {
-          "text": "Good morning"
-        },
-        {
-          "text": "Good day"
-        },
-        {
-          "text": "You there"
-        },
-        {
-          "text": "Who is this?"
-        },
-        {
-          "text": "What's up?"
-        },
-        {
-          "text": "What's new?"
-        },
-        {
-          "text": "Ok take me back"
-        },
-        {
-          "text": "Looking good eve"
-        },
-        {
-          "text": "How r u?"
-        },
-        {
-          "text": "How is it going?"
-        },
-        {
-          "text": "How have you been?"
-        },
-        {
-          "text": "How are you today?"
-        },
-        {
-          "text": "How are things going?"
-        },
-        {
-          "text": "Hi there"
-        },
-        {
-          "text": "Hi advisor"
-        },
-        {
-          "text": "Hey you"
-        },
-        {
-          "text": "Hey twin"
-        },
-        {
-          "text": "Hey there"
-        },
-        {
-          "text": "Hey there all"
-        },
-        {
-          "text": "Hey how are you doing"
-        },
-        {
-          "text": "Good evening"
-        }
-      ],
-      "description": "Greet the bot."
-    },
-    {
-      "intent": "General_Security_Assurance",
-      "examples": [
-        {
-          "text": "Is there a reason to distrust this chat?"
-        },
-        {
-          "text": "Is this a trusted chat site?"
-        },
-        {
-          "text": "Is this an official chat?"
-        },
-        {
-          "text": "Is this conversation secure?"
-        },
-        {
-          "text": "Precautions hackers?"
-        },
-        {
-          "text": "Protection hacks?"
-        },
-        {
-          "text": "Secure conversation?"
-        },
-        {
-          "text": "What guards do you have in place to protect your customer's data?"
-        },
-        {
-          "text": "What makes this chat trustworthy?"
-        },
-        {
-          "text": "What safety measures are used to ensure that chat is secure?"
-        },
-        {
-          "text": "Why would I trust this chat?"
-        },
-        {
-          "text": "Will my conversation remain secured?"
-        },
-        {
-          "text": "Is my card info secure?"
-        },
-        {
-          "text": "In what way can I tell if my plastic is safe?"
-        },
-        {
-          "text": "I'd like proof of a secure chat"
-        },
-        {
-          "text": "How safe is my data?"
-        },
-        {
-          "text": "How is my credit card info secured?"
-        },
-        {
-          "text": "How do I know this chat is not a scam?"
-        },
-        {
-          "text": "How do I know if my card info is kept safe?"
-        },
-        {
-          "text": "Do you have protection against hacks?"
-        },
-        {
-          "text": "Customer info secured?"
-        },
-        {
-          "text": "Conversation secure?"
-        },
-        {
-          "text": "Are you safe on hackers?"
-        },
-        {
-          "text": "Can I be sure that my stored card details are held securely?"
-        },
-        {
-          "text": "Are you safe?"
-        },
-        {
-          "text": "Is my payment information secure?"
-        }
-      ],
-      "description": "Express concerns about the security of the bot."
-    },
-    {
-      "intent": "General_Human_or_Bot",
-      "examples": [
-        {
-          "text": "Am I talking to a Bot?"
-        },
-        {
-          "text": "Am I chatting with a human?"
-        },
-        {
-          "text": "Are you a robot?"
-        },
-        {
-          "text": "Are you even real?"
-        },
-        {
-          "text": "Are you human?"
-        },
-        {
-          "text": "Are you real?"
-        },
-        {
-          "text": "How can you prove you are a human?"
-        },
-        {
-          "text": "Is this a computer?"
-        },
-        {
-          "text": "Tell me, are you a human or no?"
-        },
-        {
-          "text": "Are you a human or a bot?"
-        },
-        {
-          "text": "Am I talking to a person or am I talking to an AI?"
-        },
-        {
-          "text": "Am I talking to Watson?"
-        }
-      ],
-      "description": "Ask if speaking to a human or a bot."
-    },
-    {
-      "intent": "General_Agent_Capabilities",
-      "examples": [
-        {
-          "text": "Tell me something"
-        },
-        {
-          "text": "What are my options that you can help with?"
-        },
-        {
-          "text": "What are my options?"
-        },
-        {
-          "text": "What are you able to deal with?"
-        },
-        {
-          "text": "What are you able to understand?"
-        },
-        {
-          "text": "What are you capable of?"
-        },
-        {
-          "text": "What are you good at?"
-        },
-        {
-          "text": "What are you used for?"
-        },
-        {
-          "text": "What are your skills?"
-        },
-        {
-          "text": "What can I ask you to do?"
-        },
-        {
-          "text": "What do you do?"
-        },
-        {
-          "text": "What do you handle?"
-        },
-        {
-          "text": "Do you have a list of things I can talk to you about?"
-        },
-        {
-          "text": "Can you tell me what services you are able to help me with?"
-        },
-        {
-          "text": "Can you please give me a list of the types of things you can help me with?"
-        },
-        {
-          "text": "Where can I find the frequently asked questions?"
-        },
-        {
-          "text": "What kinds of things can you do?"
-        },
-        {
-          "text": "What is this 4?"
-        },
-        {
-          "text": "What features are in here?"
-        },
-        {
-          "text": "What else can you help me with?"
-        },
-        {
-          "text": "Help now"
-        },
-        {
-          "text": "Hi, what do you do?"
-        },
-        {
-          "text": "How can I use you?"
-        },
-        {
-          "text": "How can you help me?"
-        },
-        {
-          "text": "How can you solve my problems?"
-        },
-        {
-          "text": "How do I use you?"
-        },
-        {
-          "text": "I do not know what to ask"
-        },
-        {
-          "text": "I'd like to know what type of questions you can answer for me."
-        },
-        {
-          "text": "Is there anything you can help me with?"
-        },
-        {
-          "text": "Tell me about what kind of things you do?"
-        }
-      ],
-      "description": "Request capabilities of the bot."
-    },
-    {
-      "intent": "General_Positive_Feedback",
-      "examples": [
-        {
-          "text": "I like what you did there! :)"
-        },
-        {
-          "text": "You are great"
-        },
-        {
-          "text": "You are the best"
-        },
-        {
-          "text": "You are wonderful"
-        },
-        {
-          "text": "You gave me exactly what I need!"
-        },
-        {
-          "text": "You the man"
-        },
-        {
-          "text": "You're a genius!"
-        },
-        {
-          "text": "You've been so helpful :)"
-        },
-        {
-          "text": "I'm looking forward to working with you again! :)"
-        },
-        {
-          "text": "Love your work"
-        },
-        {
-          "text": "Ok thank you"
-        },
-        {
-          "text": "Thank you"
-        },
-        {
-          "text": "This is good"
-        },
-        {
-          "text": "This is great"
-        },
-        {
-          "text": "This is so cool"
-        },
-        {
-          "text": "You are awesome"
-        },
-        {
-          "text": "Brilliant!"
-        },
-        {
-          "text": "Can't believe you are that good"
-        },
-        {
-          "text": "How cool is this?"
-        }
-      ],
-      "description": "Express positive sentiment or gratitude."
+      "description": ""
     }
   ],
   "entities": [
@@ -962,27 +458,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Columbus",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Jacksonville",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "San Jose",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Los Angeles",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Austin",
+          "value": "chinatown",
           "synonyms": []
         },
         {
@@ -992,22 +468,32 @@
         },
         {
           "type": "synonyms",
-          "value": "chinatown",
+          "value": "Austin",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Las Vegas",
+          "value": "Los Angeles",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Milwaukee",
+          "value": "San Jose",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Portland",
+          "value": "Jacksonville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Columbus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "El Paso",
           "synonyms": []
         },
         {
@@ -1017,8 +503,32 @@
         },
         {
           "type": "synonyms",
-          "value": "El Paso",
+          "value": "Portland",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milwaukee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Las Vegas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "badgeNumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "3943",
+          "patterns": [
+            "(\\d{4})",
+            "(\\d{3})"
+          ]
         }
       ],
       "fuzzy_match": true
@@ -1028,52 +538,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Robert",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "James",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Mary",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Doe",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "John",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Elizabeth",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Liz",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Angelica",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Alexandria",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Dakota",
+          "value": "Reanna",
           "synonyms": []
         },
         {
@@ -1083,27 +548,127 @@
         },
         {
           "type": "synonyms",
-          "value": "Reanna",
+          "value": "Dakota",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Jad",
+          "value": "Alexandria",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Ashley",
+          "value": "Angelica",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Olivia",
+          "value": "JOe",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Noah",
+          "value": "Mitch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Amelia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alex",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Angelina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Drew",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Garry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hanna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jorge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karren",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kim",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mitchell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lisa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Doe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Patricia",
           "synonyms": []
         },
         {
@@ -1113,7 +678,22 @@
         },
         {
           "type": "synonyms",
-          "value": "Patricia",
+          "value": "Noah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ashley",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jad",
           "synonyms": []
         }
       ],
@@ -1122,6 +702,36 @@
     {
       "entity": "city",
       "values": [
+        {
+          "type": "synonyms",
+          "value": "Chicago",
+          "synonyms": [
+            "Naperville",
+            "Wilmette",
+            "Evanston",
+            "Buffalo Grove",
+            "Hinsdale",
+            "Glenview",
+            "Winnetka",
+            "Oak Park",
+            "Elmhurst",
+            "Wheaton",
+            "Northbrook",
+            "La Grange",
+            "Schaumburg",
+            "Des Plaines",
+            "Western Springs",
+            "Glencoe",
+            "Lisle",
+            "Arlington Heights",
+            "Highland Park",
+            "Skokie",
+            "Aurora",
+            "Kenilworth",
+            "Palatine",
+            "Joliet"
+          ]
+        },
         {
           "type": "synonyms",
           "value": "New Orleans",
@@ -1182,405 +792,6 @@
             "Nashville,TN",
             "Tennessee"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Chicago",
-          "synonyms": [
-            "Naperville",
-            "Wilmette",
-            "Evanston",
-            "Buffalo Grove",
-            "Hinsdale",
-            "Glenview",
-            "Winnetka",
-            "Oak Park",
-            "Elmhurst",
-            "Wheaton",
-            "Northbrook",
-            "La Grange",
-            "Schaumburg",
-            "Des Plaines",
-            "Western Springs",
-            "Glencoe",
-            "Lisle",
-            "Arlington Heights",
-            "Highland Park",
-            "Skokie",
-            "Aurora",
-            "Kenilworth",
-            "Palatine",
-            "Joliet"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "state",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "Texas",
-          "synonyms": [
-            "TX"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Rhode Island",
-          "synonyms": [
-            "RI"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "South Dakota",
-          "synonyms": [
-            "SD"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Tennessee",
-          "synonyms": [
-            "TN"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "South Carolina",
-          "synonyms": [
-            "SC"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Virginia",
-          "synonyms": [
-            "VA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Pennsylvania",
-          "synonyms": [
-            "PA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Wisconsin",
-          "synonyms": [
-            "WI"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Wyoming",
-          "synonyms": [
-            "WY"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "New York",
-          "synonyms": [
-            "NY"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "New Hampshire",
-          "synonyms": [
-            "NH"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Oklahoma",
-          "synonyms": [
-            "OK"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Nebraska",
-          "synonyms": [
-            "NE"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "New Jersey",
-          "synonyms": [
-            "NJ"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "North Dakota",
-          "synonyms": [
-            "ND"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Montana",
-          "synonyms": [
-            "MT"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Vermont",
-          "synonyms": [
-            "VT"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "North Carolina",
-          "synonyms": [
-            "NC"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Washington",
-          "synonyms": [
-            "WA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Mississippi",
-          "synonyms": [
-            "MS"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Ohio",
-          "synonyms": [
-            "OH"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Missouri",
-          "synonyms": [
-            "MO"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Minnesota",
-          "synonyms": [
-            "MN"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Maryland",
-          "synonyms": [
-            "MD"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Massachusetts",
-          "synonyms": [
-            "MA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Kansas",
-          "synonyms": [
-            "KS"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Michigan",
-          "synonyms": [
-            "MI"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Louisiana",
-          "synonyms": [
-            "LA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Kentucky",
-          "synonyms": [
-            "KY"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Connecticut",
-          "synonyms": [
-            "CT"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Colorado",
-          "synonyms": [
-            "CO"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "California",
-          "synonyms": [
-            "CA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Arizona",
-          "synonyms": [
-            "AZ"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Arkansas",
-          "synonyms": [
-            "AK"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Nevada",
-          "synonyms": [
-            "NV"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Oregon",
-          "synonyms": [
-            "OR"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Indiana",
-          "synonyms": [
-            "IN"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Illinois",
-          "synonyms": [
-            "IL"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Idaho",
-          "synonyms": [
-            "ID"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Iowa",
-          "synonyms": [
-            "IA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Georgia",
-          "synonyms": [
-            "GA"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Florida",
-          "synonyms": [
-            "FL"
-          ]
-        }
-      ],
-      "fuzzy_match": true
-    },
-    {
-      "entity": "dataless-state",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "Alabama",
-          "synonyms": [
-            "AL"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Alaska",
-          "synonyms": [
-            "AK"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Delaware",
-          "synonyms": [
-            "DE"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "District of Columbia",
-          "synonyms": [
-            "DC"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Hawaii",
-          "synonyms": [
-            "HI"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Maine",
-          "synonyms": [
-            "ME"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "New Mexico",
-          "synonyms": [
-            "NM"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "Utah",
-          "synonyms": [
-            "UT"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "West Virginia",
-          "synonyms": [
-            "WV"
-          ]
         }
       ],
       "fuzzy_match": true
@@ -1596,80 +807,198 @@
   "dialog_nodes": [
     {
       "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "I must have missed it, can you let me know your city name?"
-          ],
-          "selection_policy": "sequential"
+      "output": {},
+      "parent": "slot_1_1594828537789",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1594828537823",
+      "previous_sibling": "handler_7_1594828537823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1594828537789",
+      "context": {
+        "dataless_city": "@dataless-city"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "input",
+      "dialog_node": "handler_7_1594828537823"
+    },
+    {
+      "type": "standard",
+      "title": "Crime Trends",
+      "parent": "node_9_1594828909888",
+      "metadata": {
+        "_customization": {
+          "mcr": true
         }
       },
-      "parent": "slot_4_1594766673617",
-      "event_name": "focus",
-      "dialog_node": "handler_4_1594766673627",
-      "previous_sibling": "handler_10_1594766673627"
+      "conditions": "#crimeTrends",
+      "dialog_node": "node_6_1594828954003",
+      "previous_sibling": "node_5_1594828944663"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_4_1594766673617",
-      "context": {
-        "city": "@city"
-      },
-      "conditions": "@city",
-      "event_name": "input",
-      "dialog_node": "handler_10_1594766673627"
+      "type": "standard",
+      "title": "Crime Locations",
+      "parent": "node_9_1594828909888",
+      "conditions": "#crimeLocations",
+      "dialog_node": "node_5_1594828944663",
+      "previous_sibling": "node_10_1594828933196"
     },
     {
-      "type": "slot",
-      "output": {},
-      "parent": "node_10_1594766611118",
-      "variable": "$dataless_city",
-      "dialog_node": "slot_5_1594766693800",
-      "previous_sibling": "slot_4_1594766673617"
-    },
-    {
-      "type": "event_handler",
+      "type": "standard",
+      "title": "Badge Numbers",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "First, can I get your name & city?"
+                "text": "You'd like to know more about a specific badge number. Can you give me their number so I can look it up for you?"
+              },
+              {
+                "text": "More about a badge number. Awesome. Please provide the badge number so I can research."
+              },
+              {
+                "text": "Sure, can you give me the badge number?"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "random"
           }
         ]
       },
-      "parent": "node_10_1594766611118",
-      "event_name": "focus",
-      "dialog_node": "handler_2_1594766615979",
-      "previous_sibling": "response_3_1594825452405"
+      "parent": "node_9_1594828909888",
+      "conditions": "#badgeNumbers",
+      "dialog_node": "node_10_1594828933196"
     },
     {
       "type": "slot",
-      "parent": "node_10_1594766611118",
+      "parent": "node_3_1594828201046",
       "variable": "$name",
-      "dialog_node": "slot_5_1594766616381",
-      "previous_sibling": "handler_2_1594766615979"
+      "dialog_node": "slot_3_1594828251907",
+      "previous_sibling": "handler_1_1594828251501"
     },
     {
-      "type": "slot",
-      "parent": "node_10_1594766611118",
-      "variable": "$city",
-      "dialog_node": "slot_4_1594766673617",
-      "previous_sibling": "slot_5_1594766616381"
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1594828201046",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594828251501"
     },
     {
       "type": "response_condition",
       "output": {
         "generic": [
           {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594828954003",
+      "conditions": "",
+      "dialog_node": "response_9_1594830612384"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Hi, sorry to ask again, but can I get your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1594828251907",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594828251938",
+      "previous_sibling": "handler_10_1594828251938"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594828251907",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594828251938"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I must have missed it. Can you let me know your city, $name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594828404529",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1594828404561",
+      "previous_sibling": "handler_4_1594828404561"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594828404529",
+      "context": {
+        "city": "@city"
+      },
+      "conditions": "@city",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594828404561"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1594828508566",
+      "variable": "$dataless_city",
+      "dialog_node": "slot_1_1594828537789"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1594829447740",
+      "variable": "$badgeNumber",
+      "dialog_node": "slot_5_1594830789918"
+    },
+    {
+      "type": "frame",
+      "title": "Get Location",
+      "output": {
+        "generic": [
+          {
             "values": [
               {
-                "text": "Awesome! I'll start looking up the data now."
+                "text": "Thank you for providing that, $name. I have the capability to provide crime trends, crime locations, or can look up data by badge number for $city. What would you like to do?"
+              },
+              {
+                "text": "Hi $name, I have the capability to provide crime trends, crime locations, or can look up data by badge number in $city. What would you like to do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1594828190334",
+      "conditions": "#collectCity && @city",
+      "dialog_node": "node_1_1594828378820",
+      "previous_sibling": "node_3_1594828201046"
+    },
+    {
+      "type": "frame",
+      "title": "Dataless City",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't currently have data for $dataless_city. Feel free to input another city!"
               }
             ],
             "response_type": "text",
@@ -1677,73 +1006,90 @@
           }
         ]
       },
-      "parent": "node_10_1594766611118",
-      "disabled": true,
-      "dialog_node": "response_3_1594825452405"
-    },
-    {
-      "type": "event_handler",
-      "output": {
-        "text": {
-          "values": [
-            "I'm sorry to let you know this, but I don't currently have any information on your state yet. Feel free to request data on another city if you'd like."
-          ],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "slot_5_1594766693800",
+      "parent": "node_8_1594828190334",
       "next_step": {
-        "behavior": "reprompt"
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1594828378820"
       },
-      "conditions": "@dataless-city",
-      "event_name": "filled",
-      "dialog_node": "handler_8_1594766771026",
-      "previous_sibling": "handler_6_1594766693807"
+      "conditions": "#collectCity && @dataless-city",
+      "dialog_node": "node_4_1594828508566",
+      "previous_sibling": "node_1_1594828378820"
     },
     {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1594766693800",
-      "event_name": "focus",
-      "dialog_node": "handler_6_1594766693807",
-      "previous_sibling": "handler_8_1594766693807"
-    },
-    {
-      "type": "event_handler",
-      "output": {},
-      "parent": "slot_5_1594766693800",
-      "context": {
-        "dataless_city": "@dataless-city"
+      "type": "frame",
+      "title": "Get Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you $name. Next up, can you provide your city?"
+              },
+              {
+                "text": "Thank you, $name. Can you provide me with your city?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
       },
-      "conditions": "@dataless-city",
-      "event_name": "input",
-      "dialog_node": "handler_8_1594766693807"
+      "parent": "node_8_1594828190334",
+      "conditions": "@name || #CollectName",
+      "dialog_node": "node_3_1594828201046"
     },
     {
       "type": "event_handler",
       "output": {
         "text": {
           "values": [
-            "I must have missed it, can you let me know your name?"
+            "Badge numbers are usually 3 or 4 numbers. Please try again."
           ],
           "selection_policy": "sequential"
         }
       },
-      "parent": "slot_5_1594766616381",
+      "parent": "slot_5_1594830789918",
       "event_name": "focus",
-      "dialog_node": "handler_2_1594766616396",
-      "previous_sibling": "handler_6_1594766616396"
+      "dialog_node": "handler_9_1594830789957",
+      "previous_sibling": "handler_4_1594830789957"
     },
     {
       "type": "event_handler",
       "output": {},
-      "parent": "slot_5_1594766616381",
+      "parent": "slot_5_1594830789918",
       "context": {
-        "name": "@name"
+        "badgeNumber": "@badgeNumber"
       },
-      "conditions": "@name",
+      "conditions": "@badgeNumber",
       "event_name": "input",
-      "dialog_node": "handler_6_1594766616396"
+      "dialog_node": "handler_4_1594830789957"
+    },
+    {
+      "type": "frame",
+      "title": "Given Badge Number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For #$badgeNumber we have the following data:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594828933196",
+      "conditions": "@badgeNumber",
+      "dialog_node": "node_5_1594829447740"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1594828378820",
+      "variable": "$city",
+      "dialog_node": "slot_8_1594828404529"
     },
     {
       "type": "standard",
@@ -1772,33 +1118,21 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Anything else",
-      "previous_sibling": "node_10_1594766611118",
+      "previous_sibling": "node_9_1594828909888",
       "disambiguation_opt_out": true
     },
     {
-      "type": "frame",
+      "type": "folder",
       "title": "User Information",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Awesome! I'll start looking up the data now."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {
-        "_customization": {
-          "mcr": false
-        }
-      },
-      "conditions": "#CollectName",
-      "dialog_node": "node_10_1594766611118",
+      "dialog_node": "node_8_1594828190334",
       "previous_sibling": "Welcome"
+    },
+    {
+      "type": "folder",
+      "title": "Providing Data",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1594828909888",
+      "previous_sibling": "node_8_1594828190334"
     },
     {
       "type": "standard",
@@ -1808,10 +1142,13 @@
           {
             "values": [
               {
-                "text": "Hi I'm Watson, your virtual assistant. What's your name and city?"
+                "text": "Hi I'm Watson, your virtual police data assistant. I'm able to provide police data for various locations. First, can you tell me your name so we can get started?"
               },
               {
-                "text": "Hey, Watson, your virtual assistant here, let me know what city you'd like to know more about so we can get started."
+                "text": "Hey, this is Watson, your virtual police data assistant here. Not to be too formal, but can I ask your name before we begin?"
+              },
+              {
+                "text": "Hi there, I'm Watson, your virtual police data assistant. Can I know your name so we can get started?"
               }
             ],
             "response_type": "text",
