@@ -1,0 +1,1851 @@
+{
+  "intents": [
+    {
+      "intent": "CollectName",
+      "examples": [
+        {
+          "text": "My friends call me Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                19,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm John Doe from Texas",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                8
+              ]
+            },
+            {
+              "entity": "name",
+              "location": [
+                9,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I go by Liz",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey I'm Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi my name is Angelica from New York",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexandria from Gretna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "james, tn",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dakota, NJ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Alaska, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reanna, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ashley AZ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Jad from Kentucky",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Good evening"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "dataless-city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Columbus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jacksonville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Jose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Los Angeles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Austin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chinatown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Las Vegas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milwaukee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "El Paso",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Doe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Angelica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexandria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dakota",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alaska",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reanna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ashley",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Noah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jennifer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Patricia",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "New Orleans",
+          "synonyms": [
+            "Mandeville",
+            "Destrehan",
+            "Elmwood",
+            "Harahan",
+            "Kenner",
+            "Gretna",
+            "Abita Springs",
+            "Metairie",
+            "Harvey",
+            "Belle Chasse",
+            "River Ridge",
+            "Chalmette",
+            "Slidell",
+            "Jefferson",
+            "Covington",
+            "Meraux",
+            "Algiers Point",
+            "Norco",
+            "Arabi",
+            "Luling",
+            "Terrytown",
+            "Hahnville",
+            "Timberlane",
+            "Marrero"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nashville",
+          "synonyms": [
+            "Brentwood",
+            "Franklin",
+            "Mount Juliet",
+            "Nolensville",
+            "Belle Meade",
+            "Thompson's Station",
+            "Hendersonville",
+            "Spring Hill",
+            "Oak Hill",
+            "Murfreesboro",
+            "Forest Hills",
+            "Smyrna",
+            "La Vergne",
+            "Goodlettsville",
+            "Gallatin",
+            "Lebanon",
+            "Greenbrier",
+            "Springfield",
+            "East Nashville",
+            "Millersville",
+            "Ridgetop",
+            "Green Hill",
+            "Berry Hill",
+            "Nashville,TN",
+            "Tennessee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicago",
+          "synonyms": [
+            "Naperville",
+            "Wilmette",
+            "Evanston",
+            "Buffalo Grove",
+            "Hinsdale",
+            "Glenview",
+            "Winnetka",
+            "Oak Park",
+            "Elmhurst",
+            "Wheaton",
+            "Northbrook",
+            "La Grange",
+            "Schaumburg",
+            "Des Plaines",
+            "Western Springs",
+            "Glencoe",
+            "Lisle",
+            "Arlington Heights",
+            "Highland Park",
+            "Skokie",
+            "Aurora",
+            "Kenilworth",
+            "Palatine",
+            "Joliet"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Texas",
+          "synonyms": [
+            "TX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rhode Island",
+          "synonyms": [
+            "RI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South Dakota",
+          "synonyms": [
+            "SD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tennessee",
+          "synonyms": [
+            "TN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "South Carolina",
+          "synonyms": [
+            "SC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Virginia",
+          "synonyms": [
+            "VA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pennsylvania",
+          "synonyms": [
+            "PA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wisconsin",
+          "synonyms": [
+            "WI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Wyoming",
+          "synonyms": [
+            "WY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": [
+            "NY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Hampshire",
+          "synonyms": [
+            "NH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Oklahoma",
+          "synonyms": [
+            "OK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nebraska",
+          "synonyms": [
+            "NE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Jersey",
+          "synonyms": [
+            "NJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "North Dakota",
+          "synonyms": [
+            "ND"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Montana",
+          "synonyms": [
+            "MT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vermont",
+          "synonyms": [
+            "VT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "North Carolina",
+          "synonyms": [
+            "NC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Washington",
+          "synonyms": [
+            "WA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mississippi",
+          "synonyms": [
+            "MS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ohio",
+          "synonyms": [
+            "OH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Missouri",
+          "synonyms": [
+            "MO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Minnesota",
+          "synonyms": [
+            "MN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maryland",
+          "synonyms": [
+            "MD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Massachusetts",
+          "synonyms": [
+            "MA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kansas",
+          "synonyms": [
+            "KS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Michigan",
+          "synonyms": [
+            "MI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Louisiana",
+          "synonyms": [
+            "LA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kentucky",
+          "synonyms": [
+            "KY"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Connecticut",
+          "synonyms": [
+            "CT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colorado",
+          "synonyms": [
+            "CO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "California",
+          "synonyms": [
+            "CA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Arizona",
+          "synonyms": [
+            "AZ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Arkansas",
+          "synonyms": [
+            "AK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nevada",
+          "synonyms": [
+            "NV"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Oregon",
+          "synonyms": [
+            "OR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Indiana",
+          "synonyms": [
+            "IN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Illinois",
+          "synonyms": [
+            "IL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Idaho",
+          "synonyms": [
+            "ID"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Iowa",
+          "synonyms": [
+            "IA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Georgia",
+          "synonyms": [
+            "GA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Florida",
+          "synonyms": [
+            "FL"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dataless-state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alabama",
+          "synonyms": [
+            "AL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alaska",
+          "synonyms": [
+            "AK"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Delaware",
+          "synonyms": [
+            "DE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "District of Columbia",
+          "synonyms": [
+            "DC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hawaii",
+          "synonyms": [
+            "HI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maine",
+          "synonyms": [
+            "ME"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Mexico",
+          "synonyms": [
+            "NM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Utah",
+          "synonyms": [
+            "UT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "West Virginia",
+          "synonyms": [
+            "WV"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I must have missed it, can you let me know your city name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1594766673617",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1594766673627",
+      "previous_sibling": "handler_10_1594766673627"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1594766673617",
+      "context": {
+        "city": "@city"
+      },
+      "conditions": "@city",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594766673627"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1594766611118",
+      "variable": "$dataless_city",
+      "dialog_node": "slot_5_1594766693800",
+      "previous_sibling": "slot_4_1594766673617"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "First, can I get your name & city?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594766611118",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594766615979",
+      "previous_sibling": "response_3_1594825452405"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1594766611118",
+      "variable": "$name",
+      "dialog_node": "slot_5_1594766616381",
+      "previous_sibling": "handler_2_1594766615979"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1594766611118",
+      "variable": "$city",
+      "dialog_node": "slot_4_1594766673617",
+      "previous_sibling": "slot_5_1594766616381"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! I'll start looking up the data now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594766611118",
+      "disabled": true,
+      "dialog_node": "response_3_1594825452405"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to let you know this, but I don't currently have any information on your state yet. Feel free to request data on another city if you'd like."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1594766693800",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1594766771026",
+      "previous_sibling": "handler_6_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766693800",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594766693807",
+      "previous_sibling": "handler_8_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766693800",
+      "context": {
+        "dataless_city": "@dataless-city"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I must have missed it, can you let me know your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1594766616381",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594766616396",
+      "previous_sibling": "handler_6_1594766616396"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766616381",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594766616396"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. Please rephrase it so I can better assist you."
+              },
+              {
+                "text": "Can you reword your statement? I'm still not understanding."
+              },
+              {
+                "text": "I didn't get your meaning. Try again?"
+              },
+              {
+                "text": "I'm a bit confused. Mind explaining a bit further?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1594766611118",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "User Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! I'll start looking up the data now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#CollectName",
+      "dialog_node": "node_10_1594766611118",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi I'm Watson, your virtual assistant. What's your name and city?"
+              },
+              {
+                "text": "Hey, Watson, your virtual assistant here, let me know what city you'd like to know more about so we can get started."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Just to clarify, did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
