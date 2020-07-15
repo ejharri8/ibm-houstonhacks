@@ -590,6 +590,25 @@
       "dialog_node": "handler_10_1594766673627"
     },
     {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1594828537789",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1594828537823",
+      "previous_sibling": "handler_7_1594828537823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1594828537789",
+      "context": {
+        "dataless_city": "@dataless-city"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "input",
+      "dialog_node": "handler_7_1594828537823"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_10_1594766611118",
@@ -625,6 +644,13 @@
       "previous_sibling": "handler_2_1594766615979"
     },
     {
+      "type": "slot",
+      "parent": "node_10_1594766611118",
+      "variable": "$city",
+      "dialog_node": "slot_4_1594766673617",
+      "previous_sibling": "slot_5_1594766616381"
+    },
+    {
       "type": "response_condition",
       "output": {
         "generic": [
@@ -641,21 +667,75 @@
       },
       "parent": "node_10_1594766611118",
       "disabled": true,
-      "dialog_node": "response_3_1594825452405",
-      "previous_sibling": "node_7_1594826915784"
+      "dialog_node": "response_3_1594825452405"
     },
     {
       "type": "slot",
-      "parent": "node_10_1594766611118",
-      "variable": "$city",
-      "dialog_node": "slot_4_1594766673617",
-      "previous_sibling": "slot_5_1594766616381"
+      "parent": "node_3_1594828201046",
+      "variable": "$name",
+      "dialog_node": "slot_3_1594828251907",
+      "previous_sibling": "handler_1_1594828251501"
     },
     {
-      "type": "standard",
-      "title": "Data by Badge #",
-      "parent": "node_10_1594766611118",
-      "dialog_node": "node_7_1594826915784"
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1594828201046",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594828251501"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Hi, sorry to ask again, but can I get your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1594828251907",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594828251938",
+      "previous_sibling": "handler_10_1594828251938"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594828251907",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594828251938"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I must have missed it. Can you let me know your city, $name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594828404529",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1594828404561",
+      "previous_sibling": "handler_4_1594828404561"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594828404529",
+      "context": {
+        "city": "@city"
+      },
+      "conditions": "@city",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594828404561"
     },
     {
       "type": "event_handler",
@@ -696,6 +776,94 @@
       "dialog_node": "handler_8_1594766693807"
     },
     {
+      "type": "slot",
+      "parent": "node_4_1594828508566",
+      "variable": "$dataless_city",
+      "dialog_node": "slot_1_1594828537789"
+    },
+    {
+      "type": "frame",
+      "title": "Get Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome. $name from $city. I have the capability to provide crime trends, crime locations, or can look up data by badge number. What would you like to do?"
+              },
+              {
+                "text": "Hi $name, I have the capability to provide crime trends, crime locations, or can look up data by badge number. What would you like to do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594828190334",
+      "conditions": "#collectCity && @city",
+      "dialog_node": "node_1_1594828378820",
+      "previous_sibling": "node_3_1594828201046"
+    },
+    {
+      "type": "frame",
+      "title": "Dataless City",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, we don't currently have data for $dataless_city. Feel free to input another city!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1594828190334",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1594828378820"
+      },
+      "conditions": "#collectCity && @dataless-city",
+      "dialog_node": "node_4_1594828508566",
+      "previous_sibling": "node_1_1594828378820"
+    },
+    {
+      "type": "frame",
+      "title": "Get Name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks $name. Next up, can you provide your city?"
+              },
+              {
+                "text": "Can I get your city next, $name?"
+              },
+              {
+                "text": "I'll need to get your city now, $name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1594828190334",
+      "conditions": "@name && #CollectName",
+      "dialog_node": "node_3_1594828201046"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1594828378820",
+      "variable": "$city",
+      "dialog_node": "slot_8_1594828404529"
+    },
+    {
       "type": "event_handler",
       "output": {
         "text": {
@@ -728,29 +896,9 @@
       "previous_sibling": "node_10_1594766611118"
     },
     {
-      "type": "frame",
+      "type": "folder",
       "title": "User Information",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Hi $name. I have the capability to provide crime trends, crime locations, or can look up data by badge number. What would you like to do?"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "context": {},
-      "metadata": {
-        "_customization": {
-          "mcr": false
-        }
-      },
-      "conditions": "#CollectName",
-      "dialog_node": "node_10_1594766611118",
+      "dialog_node": "node_8_1594828190334",
       "previous_sibling": "Welcome"
     },
     {
@@ -782,6 +930,32 @@
       "dialog_node": "Anything else",
       "previous_sibling": "node_3_1594826699468",
       "disambiguation_opt_out": true
+    },
+    {
+      "type": "frame",
+      "title": "User Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name. I have the capability to provide crime trends, crime locations, or can look up data by badge number. What would you like to do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#CollectName",
+      "dialog_node": "node_10_1594766611118",
+      "previous_sibling": "node_8_1594828190334"
     },
     {
       "type": "standard",
