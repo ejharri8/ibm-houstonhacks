@@ -1,0 +1,834 @@
+{
+  "intents": [
+    {
+      "intent": "collectCity",
+      "examples": [
+        {
+          "text": "Nashville"
+        },
+        {
+          "text": "New Orleans"
+        },
+        {
+          "text": "Chicago"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CollectName",
+      "examples": [
+        {
+          "text": "Dakota, NJ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hey I'm Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Alaska, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reanna, CT",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ashley AZ",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Jad from Kentucky",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My friends call me Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                19,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm John Doe from Texas",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                4,
+                8
+              ]
+            },
+            {
+              "entity": "name",
+              "location": [
+                9,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I'm Lilith from Nashville"
+        },
+        {
+          "text": "Mitch, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Joe, Chicago",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexandria from Gretna",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi my name is Angelica from New York",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "james, tn",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I go by Liz",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                8,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "crimeLocations",
+      "examples": [
+        {
+          "text": "Tell me about locations"
+        },
+        {
+          "text": "Where is crime in my city"
+        },
+        {
+          "text": "Can I hear about the crime locations"
+        },
+        {
+          "text": "Where is crime"
+        },
+        {
+          "text": "crime locations"
+        },
+        {
+          "text": "locations"
+        },
+        {
+          "text": "Tell me about crime locations"
+        },
+        {
+          "text": "I'd love to hear about crime locations"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "crimeTrends",
+      "examples": [
+        {
+          "text": "Can you tell me about crime trends"
+        },
+        {
+          "text": "I want to know about crime trends"
+        },
+        {
+          "text": "Crime Trends"
+        },
+        {
+          "text": "Crime trends please"
+        },
+        {
+          "text": "I'd like to hear about crime trends"
+        },
+        {
+          "text": "Can you tell me the trends"
+        },
+        {
+          "text": "Tell me about the trends"
+        },
+        {
+          "text": "crime trends in my city"
+        },
+        {
+          "text": "more about crime trends"
+        },
+        {
+          "text": "lmk crime trends"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "badgeNumbers",
+      "examples": [
+        {
+          "text": "I'd like to hear about data by badge number"
+        },
+        {
+          "text": "Can I look up data by Badge Number"
+        },
+        {
+          "text": "Badge number"
+        },
+        {
+          "text": "I have a badge number"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "dataless-city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chinatown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New York",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Austin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Los Angeles",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "San Jose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jacksonville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Columbus",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "El Paso",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milwaukee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Las Vegas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Jad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Reanna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alaska",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dakota",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexandria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Angelica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "JOe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mitch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Doe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Patricia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jennifer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Noah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ashley",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nashville",
+          "synonyms": [
+            "Brentwood",
+            "Franklin",
+            "Mount Juliet",
+            "Nolensville",
+            "Belle Meade",
+            "Thompson's Station",
+            "Hendersonville",
+            "Spring Hill",
+            "Oak Hill",
+            "Murfreesboro",
+            "Forest Hills",
+            "Smyrna",
+            "La Vergne",
+            "Goodlettsville",
+            "Gallatin",
+            "Lebanon",
+            "Greenbrier",
+            "Springfield",
+            "East Nashville",
+            "Millersville",
+            "Ridgetop",
+            "Green Hill",
+            "Berry Hill",
+            "Nashville,TN",
+            "Tennessee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chicago",
+          "synonyms": [
+            "Naperville",
+            "Wilmette",
+            "Evanston",
+            "Buffalo Grove",
+            "Hinsdale",
+            "Glenview",
+            "Winnetka",
+            "Oak Park",
+            "Elmhurst",
+            "Wheaton",
+            "Northbrook",
+            "La Grange",
+            "Schaumburg",
+            "Des Plaines",
+            "Western Springs",
+            "Glencoe",
+            "Lisle",
+            "Arlington Heights",
+            "Highland Park",
+            "Skokie",
+            "Aurora",
+            "Kenilworth",
+            "Palatine",
+            "Joliet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "New Orleans",
+          "synonyms": [
+            "Mandeville",
+            "Destrehan",
+            "Elmwood",
+            "Harahan",
+            "Kenner",
+            "Gretna",
+            "Abita Springs",
+            "Metairie",
+            "Harvey",
+            "Belle Chasse",
+            "River Ridge",
+            "Chalmette",
+            "Slidell",
+            "Jefferson",
+            "Covington",
+            "Meraux",
+            "Algiers Point",
+            "Norco",
+            "Arabi",
+            "Luling",
+            "Terrytown",
+            "Hahnville",
+            "Timberlane",
+            "Marrero"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I must have missed it, can you let me know your city name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1594766673617",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1594766673627",
+      "previous_sibling": "handler_10_1594766673627"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1594766673617",
+      "context": {
+        "city": "@city"
+      },
+      "conditions": "@city",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594766673627"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1594766611118",
+      "variable": "$dataless_city",
+      "dialog_node": "slot_5_1594766693800",
+      "previous_sibling": "slot_4_1594766673617"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "First, can I get your name & city?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594766611118",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594766615979",
+      "previous_sibling": "response_3_1594825452405"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1594766611118",
+      "variable": "$name",
+      "dialog_node": "slot_5_1594766616381",
+      "previous_sibling": "handler_2_1594766615979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Awesome! I'll start looking up the data now."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594766611118",
+      "disabled": true,
+      "dialog_node": "response_3_1594825452405",
+      "previous_sibling": "node_7_1594826915784"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1594766611118",
+      "variable": "$city",
+      "dialog_node": "slot_4_1594766673617",
+      "previous_sibling": "slot_5_1594766616381"
+    },
+    {
+      "type": "standard",
+      "title": "Data by Badge #",
+      "parent": "node_10_1594766611118",
+      "dialog_node": "node_7_1594826915784"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766693800",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1594766693807",
+      "previous_sibling": "handler_8_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to let you know this, but I don't currently have any information on your city yet. Feel free to request data on another city if you'd like."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1594766693800",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1594766771026",
+      "previous_sibling": "handler_6_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766693800",
+      "context": {
+        "dataless_city": "@dataless-city"
+      },
+      "conditions": "@dataless-city",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594766693807"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I must have missed it, can you let me know your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1594766616381",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594766616396",
+      "previous_sibling": "handler_6_1594766616396"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594766616381",
+      "context": {
+        "name": "@name"
+      },
+      "conditions": "@name",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594766616396"
+    },
+    {
+      "type": "standard",
+      "title": "Data Inf",
+      "dialog_node": "node_3_1594826699468",
+      "previous_sibling": "node_10_1594766611118"
+    },
+    {
+      "type": "frame",
+      "title": "User Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi $name. I have the capability to provide crime trends, crime locations, or can look up data by badge number. What would you like to do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#CollectName",
+      "dialog_node": "node_10_1594766611118",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. Please rephrase it so I can better assist you."
+              },
+              {
+                "text": "Can you reword your statement? I'm still not understanding."
+              },
+              {
+                "text": "I didn't get your meaning. Try again?"
+              },
+              {
+                "text": "I'm a bit confused. Mind explaining a bit further?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1594826699468",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi I'm Watson, your virtual assistant. I'm able to provide police data for various locations. What's your name and city?"
+              },
+              {
+                "text": "Hey, Watson, your virtual assistant here, let me know what city you'd like to know more about so we can get started."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Just to clarify, did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
