@@ -1,2 +1,5 @@
 # ibm-houstonhacks
-IBM NA Intern Hackathon Emb(RACE)
+Houston Hackers Finalized Product.
+
+HTML Host is the implementation with the NAACP website to show future functionality.
+
