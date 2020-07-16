@@ -1102,6 +1102,11 @@
           "mcr": true
         }
       },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
       "conditions": "$city",
       "dialog_node": "node_5_1594841756863"
     },
@@ -1243,6 +1248,11 @@
           "mcr": true
         }
       },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
+      },
       "conditions": "$city",
       "dialog_node": "node_1_1594841898177"
     },
@@ -1348,7 +1358,7 @@
           {
             "values": [
               {
-                "text": "Is there anything else that I can assist you with today?"
+                "text": "Chicago has seen a 6% increase in the number of BROKEN/INOPERABLE LAMP citations written in the last month. </br> </br>72% of these citations were written between the hours of 7:45pm and 9:45pm. </br></br>To find more trends in the Chicago area as well as locations, please refer to the heat map <a  target=\"_blank\" href=\"https://google.com.br\"> here.</a> </br></br> Hope this helps, $name. Feel free to ask any other questions you have."
               }
             ],
             "response_type": "text",
@@ -1368,7 +1378,7 @@
           {
             "values": [
               {
-                "text": "Is there anything else that I can assist you with today?"
+                "text": "New Orleans has seen a 6% increase in the number of BROKEN/INOPERABLE LAMP citations written in the last month. </br> 72% of these citations were written between the hours of 7:45pm and 9:45pm. </br>To find more trends in the Chicago area as well as locations, please refer to the heat map <a  target=\"_blank\" href=\"https://google.com.br\">Google</a>here. Is there anything else that I can assist you with today? Is there anything else that I can assist you with today?"
               }
             ],
             "response_type": "text",
@@ -1388,7 +1398,7 @@
           {
             "values": [
               {
-                "text": "response and then: Is there anything else that I can assist you with today?"
+                "text": "Nashville has seen a 6% increase in the number of BROKEN/INOPERABLE LAMP citations written in the last month. </br> 72% of these citations were written between the hours of 7:45pm and 9:45pm. </br>To find more trends in the Chicago area as well as locations, please refer to the heat map <a  target=\"_blank\" href=\"https://google.com.br\">Google</a>here. Is there anything else that I can assist you with today? Is there anything else that I can assist you with today?"
               }
             ],
             "response_type": "text",
@@ -1438,6 +1448,11 @@
         "_customization": {
           "mcr": true
         }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1594832563621"
       },
       "conditions": "$badgeNumber",
       "dialog_node": "node_4_1594839883087"
@@ -1549,21 +1564,8 @@
             "values": [
               {
                 "text": "For the badge number #$badgeNumber that you have provided me with, I found the following data: "
-              },
-              {
-                "text": "For the badge number #$badgeNumber I have found the following data: 144 traffic stops, 50 drug arrests, and they have worked on 4 sexual assault cases. "
               }
             ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "time": 0,
-            "typing": true,
-            "response_type": "pause"
-          },
-          {
-            "values": [],
             "response_type": "text",
             "selection_policy": "sequential"
           }
@@ -1593,7 +1595,7 @@
           {
             "values": [
               {
-                "text": "Click <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. Is there anything else that I can assist you with today?"
+                "text": "Click <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. If you have any other questions, let me know."
               }
             ],
             "response_type": "text",
@@ -1633,7 +1635,7 @@
           {
             "values": [
               {
-                "text": "Click  <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. Is there anything else that I can assist you with today?"
+                "text": "Click  <a  target=\"_blank\" href=\"https://google.com.br\">here</a> to check out a crime map of $city. If you have any other questions, I'd love to answer them!"
               }
             ],
             "response_type": "text",
@@ -1658,7 +1660,7 @@
           {
             "values": [
               {
-                "text": "ACCEPTED BADGE # Can I help assist you with anything else today, $name?"
+                "text": "Traffic stops this month: </br> Black citizen: 273  </br> White citizen: 318 </br>  Other: 113  </br> </br> Citations written this month: </br>  Black citizen: 163 </br>  White citizen: 143  </br> </br> Complaints received: 6</br> </br>  Feel free to ask any other questions, $name."
               }
             ],
             "response_type": "text",
@@ -1678,7 +1680,7 @@
           {
             "values": [
               {
-                "text": "Thank you for chatting with me today. Click <a  target=“_blank” href=“https://google.com.br”>here</a> to be directed to a live chat with a police officer if you are interested. I also provided links to more information regarding."
+                "text": "Thank you for chatting with me today. Click <a  target=“_blank” href=“https://google.com.br”>here</a> to be directed to a live chat with a police officer if you are interested. Have a great day!"
               }
             ],
             "response_type": "text",
@@ -1694,7 +1696,7 @@
           "mcr": false
         }
       },
-      "conditions": "#General_Ending && $here",
+      "conditions": "#General_Ending || $here",
       "digress_in": "does_not_return",
       "dialog_node": "node_8_1594832712274",
       "previous_sibling": "node_9_1594828909888"
@@ -1750,7 +1752,7 @@
           {
             "values": [
               {
-                "text": "Hi there, my name is Bot, your virtual police data assistant. I am able to provide data for various locations. But first, can you tell me your name so we can get started?"
+                "text": "Hi there, my name is Dot, your virtual police data assistant. I am able to provide data for various locations. But first, can you tell me your name so we can get started?"
               }
             ],
             "response_type": "text",
